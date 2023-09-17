@@ -1,0 +1,106 @@
+/* Reactangle2.css */
+
+.reactangle {
+    background: black;
+    width: 100vw;
+    height: 749px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url('./assets/Rectangle.png');
+  }
+  .main2{
+    display: flex;
+  }
+  .main1 {
+    display: flex;
+    justify-content: space-between; /* Add this to distribute elements to the edges */
+    align-items: center;
+    width: 100%;/* Add some padding to space out elements */
+  }
+  
+  .shopkart {
+    /* Adjust width if needed */
+    height: 60px;
+    border: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 275;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .wishlist {
+    width: 89px;
+    height: 16px;
+    border: 1px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .bag {
+    width: 51px;
+    height: 16px;
+    border: 1px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10px; /* Add margin to separate from wishlist */
+  }
+  
+  .line2 {
+    width: 100%;
+    color: white;
+  }
+  
+  .home {
+    width: 71px;
+    height: 28px;
+    top: 115px;
+    left: 137px;
+    border: 1px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #FFFFFF;
+  }
+  .fresh{
+    /* //styleName: H1 title; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #0a0a0a
+  }
+  @media screen and (max-width: 767px) {
+    .shopkart {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  
+    .wishlist,
+    .bag,
+    .home {
+      width: 100%;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  
